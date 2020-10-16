@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2020-10-08T12:50:55.832+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd-muzik/settings/wcm/templates/base-page"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wknd-muzik/components/page">
+        <root
+            jcr:lastModified="{Date}2020-09-28T16:35:55.081+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/container"
+            layout="responsiveGrid">
+            <experiencefragment
+                jcr:created="{Date}2020-09-28T16:42:14.929+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-10-08T12:50:55.828+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/wknd-muzik/language-masters/en/site/header/master"/>
+            <container
+                jcr:created="{Date}2020-09-23T20:29:28.727+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-09-23T20:29:28.727+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/container"
+                editable="{Boolean}true"/>
+            <experiencefragment_480515002
+                jcr:created="{Date}2020-09-28T16:42:25.843+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-09-28T16:43:28.377+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/wknd-muzik/language-masters/en/site/footer/master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

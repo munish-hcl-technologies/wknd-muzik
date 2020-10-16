@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-10-15T21:21:35.282+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/wknd-muzik/templates/page-home"
+        cq:translationProject="[/content/projects/wknd-muzik/wknd-muzik5,/content/projects/wknd-muzik/wknd-muzik,/content/projects/wknd-muzik/wknd-muzik0,/content/projects/wknd-muzik1602828063505,/content/projects/wknd-muzik-de]"
+        cq:translationStatus="DRAFT"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Germany"
+        sling:resourceType="wknd-muzik/components/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/text"
+                text="&lt;p>This is a home page&lt;/p>"
+                textIsRich="true"/>
+        </par>
+    </jcr:content>
+    <de/>
+</jcr:root>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <language-masters/>
+    <us/>
+    <ca/>
+    <de/>
+    <jcr:content
+        cq:lastModified="{Date}2020-10-16T13:27:34.605+05:30"
+        cq:lastModifiedBy="admin"
+        cq:redirectTarget="/content/wknd-muzik/us/en"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="WKND-MUZIK"
+        sling:resourceType="wknd-muzik/components/page">
+        <image
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/wknd-muzik/english/site/show.png"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>
