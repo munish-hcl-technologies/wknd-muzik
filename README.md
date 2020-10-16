@@ -56,7 +56,10 @@ Run following command to deploy it to a publish instance
 	
 	Template used 
 	
-	There is only one template used named "Content Page"
+	There is only one Editable template used named "Content Page". 
+	In case same is not appearing while creating page. You need to add following configuration in the root page properties of wknd-muzik site.
+	/conf/wknd-muzik/settings/wcm/templates/.*
+	
 	List of Pages Created - All Pages in the Navigation have been created But active pages are as per the shared Design
 	1 Home
 	2 Membership
