@@ -8,7 +8,7 @@ This is lean code using AEM Core Component:
 	Login to AEM and got to http://yourhost/system/console/configMgr
 	Open Day CQ Link Checker Transformer and Tick "Disable Checking" Checkbox
 
-## How to deplay code
+## How to deploy code
 
 
 Run following command to deploy it to a Author instance
@@ -30,7 +30,7 @@ Run following command to deploy it to a publish instance
 	
 	
 ## 	Component and Templates 
-    The Entire site is developed using AEM Core Component and there is no Modification in the Sigtly templates.
+    The Entire site is developed using AEM Core Component and there is no Modification in the HTML, Sigtly templates and Design Dialogs.
 	
 	List of Components used to build the Website are
 	1	Accordion
@@ -60,10 +60,13 @@ Run following command to deploy it to a publish instance
 	List of Pages Created - All Pages in the Navigation have been created But active pages are as per the shared Design
 	1 Home
 	2 Membership
-	3 Sign In with email functionality
+	3 Sign In with email functionality and confirmation page
     4 Faq 
 	5 Customer Service	
 	
 	
 ## 	Email Configuration 	
+	We used the out of box email configuration for sending an email for Membership sign up page. 
+    Login to AEM and got to http://yourhost/system/console/configMgr
+	Open "Day CQ Mail Service" and Configure the SMTP details:
 	
