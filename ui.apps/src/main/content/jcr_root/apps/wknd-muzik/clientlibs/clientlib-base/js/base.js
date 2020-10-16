@@ -33,9 +33,3 @@ $(document).ready(function(){
         $(this).find('.cmp-teaser').css("background-image", "url(" + imageUrl + ")");
 	});
 });
-
-$( window ).load(function() {
-
-
-
-});
