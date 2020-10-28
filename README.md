@@ -55,10 +55,7 @@ Run following command to deploy it to a publish instance
 	20	Title
 	
 	Template used 
-	
 	There is only one Editable template used named "Content Page". 
-	In case same is not appearing while creating page. You need to add following configuration in the root page properties of wknd-muzik site.
-	/conf/wknd-muzik/settings/wcm/templates/.*
 	
 	List of Pages Created - All Pages in the Navigation have been created But active pages are as per the shared Design
 	1 Home
@@ -73,3 +70,7 @@ Run following command to deploy it to a publish instance
     Login to AEM and got to http://yourhost/system/console/configMgr
 	Open "Day CQ Mail Service" and Configure the SMTP details:
 	
+#   Code Modification in latest commit
+
+    1. Added cq:allowedTemplates Configuration "/conf/wknd-muzik/settings/wcm/templates/.*" in root page Properties
+	2. Deleted Extra Experience Fragments   

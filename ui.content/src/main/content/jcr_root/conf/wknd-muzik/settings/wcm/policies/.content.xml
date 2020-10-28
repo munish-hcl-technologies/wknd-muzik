@@ -24,7 +24,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="wkend Language Navigation - Experience Fragment"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    navigationRoot="/content/wkend"
+                    navigationRoot="/content/wknd-muzik/"
                     structureDepth="1">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_xfm>
@@ -384,7 +384,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Root"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/libs/wcm/foundation/components/responsivegrid,group:wkend - Content,/apps/wkend/components/form/container,group:wkend - Structure]"
+                    components="[/libs/wcm/foundation/components/responsivegrid,group:Wknd Muzik - Content,/apps/wknd-muzik/components/form/container,group:Wknd Muzik - Structure]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
@@ -394,19 +394,19 @@
                                 assetGroup="media"
                                 assetMimetype="image/*"
                                 droptarget="image"
-                                resourceType="wkend/components/image"/>
+                                resourceType="wknd-muzik/components/image"/>
                             <mapping_1575030843388
                                 jcr:primaryType="nt:unstructured"
                                 assetGroup="content"
                                 assetMimetype="text/html"
                                 droptarget="experiencefragment"
-                                resourceType="wkend/components/experiencefragment"/>
+                                resourceType="wknd-muzik/components/experiencefragment"/>
                             <mapping_1575030853128
                                 jcr:primaryType="nt:unstructured"
                                 assetGroup="media"
                                 assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
                                 droptarget="contentfragment"
-                                resourceType="wkend/components/contentfragment"/>
+                                resourceType="wknd-muzik/components/contentfragment"/>
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1574694950110>
@@ -427,19 +427,19 @@
                                 assetGroup="media"
                                 assetMimetype="image/*"
                                 droptarget="image"
-                                resourceType="wkend/components/image"/>
+                                resourceType="wknd-muzik/components/image"/>
                             <mapping_1575030260142
                                 jcr:primaryType="nt:unstructured"
                                 assetGroup="content"
                                 assetMimetype="text/html"
                                 droptarget="experiencefragment"
-                                resourceType="wkend/components/experiencefragment"/>
+                                resourceType="wknd-muzik/components/experiencefragment"/>
                             <mapping_1575030269139
                                 jcr:primaryType="nt:unstructured"
                                 assetGroup="media"
                                 assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
                                 droptarget="contentfragment"
-                                resourceType="wkend/components/contentfragment"/>
+                                resourceType="wknd-muzik/components/contentfragment"/>
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1574695586800>
@@ -458,7 +458,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="XF Root"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/libs/wcm/foundation/components/responsivegrid,group:wkend - Content,/apps/wkend/components/form/container,group:wkend - Structure]">
+                    components="[/libs/wcm/foundation/components/responsivegrid,group:Wknd Muzik - Content,/apps/wknd-muzik/components/form/container,group:Wknd Muzik - Structure]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -467,19 +467,19 @@
                                 assetGroup="media"
                                 assetMimetype="image/*"
                                 droptarget="image"
-                                resourceType="wkend/components/image"/>
+                                resourceType="wknd-muzik/components/image"/>
                             <mapping_1575030843388
                                 jcr:primaryType="nt:unstructured"
                                 assetGroup="content"
                                 assetMimetype="text/html"
                                 droptarget="experiencefragment"
-                                resourceType="wkend/components/experiencefragment"/>
+                                resourceType="wknd-muzik/components/experiencefragment"/>
                             <mapping_1575030853128
                                 jcr:primaryType="nt:unstructured"
                                 assetGroup="media"
                                 assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
                                 droptarget="contentfragment"
-                                resourceType="wkend/components/contentfragment"/>
+                                resourceType="wknd-muzik/components/contentfragment"/>
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1575040440977>
@@ -498,7 +498,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKend Music Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/libs/wcm/foundation/components/responsivegrid,group:wkend - Content,group:wkend - Form]">
+                    components="[/libs/wcm/foundation/components/responsivegrid,group:Wknd Muzik - Content,group:Wknd Muzik - Form]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_7781217626471>
                 <policy_9191351155039
@@ -507,7 +507,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKend Music"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/libs/wcm/foundation/components/responsivegrid,group:wkend - Content,group:wkend - Form]"
+                    components="[/libs/wcm/foundation/components/responsivegrid,group:Wknd Muzik - Content,group:Wknd Muzik - Form]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:styleGroups jcr:primaryType="nt:unstructured">
@@ -625,8 +625,8 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Generic Page"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[wkend.dependencies,wkend.site]"
-                    clientlibsJsHead="wkend.dependencies">
+                    clientlibs="[wknd-muzik.dependencies,wknd-muzik.site]"
+                    clientlibsJsHead="wknd-muzik.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
             </page>

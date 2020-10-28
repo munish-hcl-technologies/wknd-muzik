@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-10-14T07:57:12.868+05:30"
+        cq:lastModified="{Date}2020-10-28T10:44:01.379+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2020-10-28T10:26:53.735+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:tags="[]"
         cq:template="/conf/wknd-muzik/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
         cq:xfVariantType="web"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Footer"
+        jcr:uuid="58049e26-2fe2-4528-ae19-85a25ade21a8"
         sling:resourceType="wknd-muzik/components/xfpage">
         <root
-            jcr:lastModified="{Date}2020-09-28T19:21:09.449+05:30"
+            jcr:lastModified="{Date}2020-10-27T23:17:36.215+05:30"
             jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/container"
@@ -45,7 +51,7 @@
             <container
                 jcr:created="{Date}2020-10-01T11:16:19.574+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2020-10-14T07:57:12.643+05:30"
+                jcr:lastModified="{Date}2020-10-28T10:44:01.137+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container"
@@ -114,29 +120,6 @@
                     offset="0"
                     width="12"/>
             </container>
-            <separator
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd-muzik/components/separator"/>
-            <text
-                jcr:created="{Date}2020-10-01T10:44:43.998+05:30"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2020-10-01T10:45:41.642+05:30"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd-muzik/components/text"
-                text="&lt;p>© 2020 Demo Site. Intended only as a demonstration of Adobe Experience Manager&lt;/p>&#xa;"
-                textIsRich="true">
-                <cq:responsive jcr:primaryType="nt:unstructured">
-                    <default
-                        jcr:primaryType="nt:unstructured"
-                        offset="1"
-                        width="10"/>
-                    <phone
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="12"/>
-                </cq:responsive>
-            </text>
         </root>
     </jcr:content>
 </jcr:root>

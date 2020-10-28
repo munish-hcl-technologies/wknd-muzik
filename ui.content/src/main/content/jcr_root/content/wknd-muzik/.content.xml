@@ -5,7 +5,8 @@
     <us/>
     <ca/>
     <de/>
-    <jcr:content
+    <jcr:content	
+	    cq:allowedTemplates="/conf/wknd-muzik/settings/wcm/templates/.*"
         cq:lastModified="{Date}2020-10-16T13:27:34.605+05:30"
         cq:lastModifiedBy="admin"
         cq:redirectTarget="/content/wknd-muzik/us/en"
