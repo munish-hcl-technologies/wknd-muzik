@@ -32,4 +32,17 @@ $(document).ready(function(){
       	imageUrl = $(this).find('.cmp-teaser .cmp-teaser__image div').attr('data-asset');
         $(this).find('.cmp-teaser').css("background-image", "url(" + imageUrl + ")");
 	});
+	
+	$('#membership-sign-up-form').validate({
+        rules: {
+            card_number: {
+             creditcard:true,
+            },
+            member_phone: {
+             phoneUS: true,
+            }  
+        }
+
+ 	 });
+	 
 });

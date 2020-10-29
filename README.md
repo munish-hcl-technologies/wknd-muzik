@@ -70,6 +70,10 @@ Run following command to deploy it to a publish instance
     Login to AEM and got to http://yourhost/system/console/configMgr
 	Open "Day CQ Mail Service" and Configure the SMTP details:
 	
+## 	Signup Form Validation
+    Used Jquery Validation for US-Phone and Credit Card Number 
+    Use US Phone For example 541-754-3010
+	
 #   Code Modification in latest commit
 
     1. Added cq:allowedTemplates Configuration "/conf/wknd-muzik/settings/wcm/templates/.*" in root page Properties

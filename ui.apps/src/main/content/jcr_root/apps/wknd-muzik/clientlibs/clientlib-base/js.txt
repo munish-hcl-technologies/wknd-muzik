@@ -17,3 +17,5 @@
 #base=js
 
 base.js
+validate.js
+additional-methods.js
